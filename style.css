@@ -1,0 +1,244 @@
+html{
+    background-color:rgb(247, 180, 247);
+}
+.rigby {
+    height: 100px;
+    width: 100px;
+    border: solid Purple;
+    border-radius: 25px;
+    border-style: dashed;
+}
+
+h1 {
+    color: rgb(247, 180, 247);
+    padding: 10px;
+    background-color: purple;
+    border-radius: 25px;
+    font-family: cursive;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: cursive;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: purple;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s ease;
+}
+
+.navbar2 {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    font-family:fantasy;
+    color: rgb(247, 180, 247);
+    padding: 0;
+    text-align: center;
+    border:solid purple;
+    border-radius: 25px;
+    border-style:dashed;
+    border-width:5px;
+    font-size: 30px;
+    text-shadow:5px 3px 0px purple;
+}
+
+.navbar2 ul li {
+    margin: 8px 0;
+}
+
+.navbar3 {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+.navbar3 ul {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    padding: 30px;
+    border:solid purple;
+    border-radius: 25px;
+    border-style:dashed;
+    border-width:5px;
+    font-size: 20px;
+}
+
+.navbar3 ul li {
+    margin: 8px 0;
+}
+
+
+.navbar4 {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+.navbar4 ul {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    padding: 30px;
+    border:solid purple;
+    border-radius: 25px;
+    border-style:dashed;
+    border-width:5px;
+    font-size: 20px;
+}
+
+.navbar4 ul li {
+    margin: 8px 0;
+}
+
+.navbar5 {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+.navbar5 ul {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    padding: 30px;
+    border:solid purple;
+    border-radius: 25px;
+    border-style:dashed;
+    border-width:5px;
+    font-size: 20px;
+}
+
+.navbar5 ul li {
+    margin: 8px 0;
+}
+
+.navbar6 {
+    padding: 20px;
+    background-color: rgb(204, 137, 182);
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+.navbar6 ul {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    padding: 30px;
+    border:solid purple;
+    border-radius: 25px;
+    border-style:dashed;
+    border-width:5px;
+    font-size: 20px;
+}
+
+.navbar6 ul li {
+    margin: 8px 0;
+}
+
+
+
+#live-clock {
+    color: Purple;
+    font-family: Cursive;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(204, 137, 182);
+    color: purple;
+    border: 2px solid purple;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+#topBtn:hover {
+    background-color: rgb(247, 180, 247);
+}
+
+body {
+    margin: 20px;
+}
+
+
+.page-section {
+    display: none;
+}
+
+
+.page-section.active {
+    display: block;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.button-container button {
+    width: 300px;         
+    padding: 18px 20px;  
+    font-size: 18px;       
+    text-align: center;   
+    background-color: rgb(247, 180, 247);
+    border:solid purple;
+    border-style: dashed;
+    border-radius: 10px;
+    border-width: 10px;
+    font-family: Cursive;
+}
+
+.button-container button:hover {
+    transform: scale(1.08); 
+    cursor: pointer; 
+}
+
+.footer{
+    color: rgb(204, 137, 182);
+    background-color:purple;
+    padding: 50px;
+    text-align: center;
+    width:auto;
+}
